@@ -1,9 +1,7 @@
 #!/bin/bash
 # ============= iStoreOS 24.10 仓库外的第三方插件==============
 # ============= 若启用 则打开注释 ============================
-# 代理相关
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-passwall-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
+
 # 分区扩容 by sirpdboy 
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-partexp"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-partexp-zh-cn"
@@ -17,8 +15,8 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-netspeedtest-zh-cn"
 # MosDNS
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-mosdns-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-mosdns-zh-cn"
 # Turbo ACC 网络加速
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 # 应用过滤 openappfilter.com
