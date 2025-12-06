@@ -1037,10 +1037,7 @@ PACKAGES="$PACKAGES zram-swap"
 # 固件构建必要
 PACKAGES="$PACKAGES -libustream-mbedtls perlbase-time"
 
-# opc-rely依赖，其他会自动集成
-PACKAGES="$PACKAGES ruby ruby-pstore ruby-psych ruby-yaml"
-
-# 斐讯N1无线：此固件未考虑无线，需自行研究
+# N1无线：此固件未考虑无线，需自行研究
 #PACKAGES="$PACKAGES kmod-brcmfmac wpad-basic-mbedtls"
 
 # file/packages目录的第三方可选插件，需要则去掉注释即可

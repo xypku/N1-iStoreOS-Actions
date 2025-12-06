@@ -15,6 +15,7 @@ on:
           - alark35-3500
           - anas3035
           - aio-3399b
+          - bdy-g18-pro
           - beikeyun
           - chainedbox
           - crrc
@@ -49,6 +50,7 @@ on:
           - nanopc-t6
           - nanopi-r5c
           - nanopi-r5s
+          - nsy-g16-plus
           - nsy-g68-plus
           - orangepi-5-plus
           - orangepi-5b
@@ -182,7 +184,7 @@ on:
           - 6.6.115
           - 6.12.47
       auto_kernel:
-        description: "自动使用最新内核"
+        description: "自动使用最新内核-未匹配则自动"
         required: false
         default: true
         type: boolean
