@@ -248,13 +248,13 @@ jobs:
         with:
           tag_name: iStoreOS-${{ env.VERSION }}-SNAPSHOT-dhcp
           body: |
-            🔄 版本： iStoreOS-${{ env.VERSION }}-SNAPSHOT（源码编译，追新版）
+            🔄 版本： iStoreOS-${{ env.VERSION }}-SNAPSHOT（源码编译后构建，插件集成适度精简）
             
             📂 来源： https://github.com/istoreos/istoreos
             
             🧠 内核： Please Login to iStoreOS → System → Amlogic Service → Replace the Kernel
             
-            🧩 集成： 包含了基础系统组件、驱动、网络工具、容器支持、LuCI界面及插件等。并对官方插件列表适度精简
+            🧩 集成： 包含了基础系统组件、驱动、网络工具、容器支持、LuCI界面及插件等
             
             👤 用户名： root
             
